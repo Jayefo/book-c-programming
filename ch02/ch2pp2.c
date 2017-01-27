@@ -8,4 +8,6 @@ int main(void)
     //v = 4 / 3 * pi * (r * r *r);
     
     printf ("volume of a sphere with 10 meter raduis : %.1f m^3\n", v);
+
+    return 0;
 }
