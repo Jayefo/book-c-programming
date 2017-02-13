@@ -7,10 +7,10 @@
 
 int main(void)
 {
-    float amountOfLoan, interestRate, montlyPayment;
+    float loan, interestRate, montlyPayment;
     
     printf("Enter amount of loan: ");
-    scanf("%f", &amountOfLoan);
+    scanf("%f", &loan);
     printf("Enter interest rate: ");
     scanf("%f", &interestRate);
     printf("Enter monthly payment: ");
@@ -19,7 +19,7 @@ int main(void)
 
     interestRate = 1 + (interestRate * 0.01f) / 12;   // 1(amount of loan) + monthly interest rate
     
-    float balance1 =  amountOfLoan * interestRate - montlyPayment; // balance after first payment
+    float balance1 =  loan * interestRate - montlyPayment; // balance after first payment
     float balance2 =  balance1 * interestRate - montlyPayment;    // balance after second payment
     float balance3 =  balance2 * interestRate - montlyPayment;    // balance after third payment
 
