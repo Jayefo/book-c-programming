@@ -1,1 +1,1 @@
-C Programming : A Morden Approach 2nd edition.
+C Programming : A Morden Approach 2nd edition
